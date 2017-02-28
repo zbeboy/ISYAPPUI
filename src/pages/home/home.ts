@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 
-import { NavController } from 'ionic-angular';
+import { NavController ,Nav} from 'ionic-angular';
+
+import { LoginPage } from '../login/login';
 
 @Component({
   selector: 'page-home',
@@ -8,8 +10,12 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
-    
+  constructor(public navCtrl: NavController  ) {
+
   }
 
+  loginPage() {
+    // navigate to the new page if it is not the current page
+    this.navCtrl.setRoot(LoginPage);
+  }
 }

@@ -1,14 +1,27 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      校园协作平台
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-row >
+    <ion-col>
+      <div class="welcome-text">
+        <h1>ISY</h1>
+        <button ion-button outline (click)="loginPage()">马上登录</button>
+      </div>
+    </ion-col>
+  </ion-row>
+  <footer class="site-footer" >
+    <ion-row >
+      <ion-col>
+        <div>
+            <p class="copyright-text">©2017 ISY Team 滇ICP备16002454号</p>
+        </div>
+      </ion-col>
+    </ion-row>
+  </footer>
 </ion-content>

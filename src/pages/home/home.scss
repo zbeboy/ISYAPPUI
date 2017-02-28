@@ -1,3 +1,25 @@
 page-home {
+  ion-col div {
+    text-align: center;
+  }
+  /*------ banner ------ */
+.welcome-text {
+  padding: 100px 0 30px 0;
+}
+.welcome-text h1 {
+  margin-bottom: 30px;
+  font-size: 82px;
+  color: ffff;
+  letter-spacing:2px;
+}
 
+  /*------ footer ------ */
+.site-footer {
+    padding: 100px 0 0 0;
+}
+.copyright-text {
+  font-size: 12px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
 }

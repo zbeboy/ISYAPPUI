@@ -1,1 +1,37 @@
-<ion-nav [root]="rootPage"></ion-nav>
+<ion-menu [content]="content">
+
+  <ion-header>
+    <ion-toolbar>
+      <ion-title>菜单</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-list>
+      <button ion-item >
+        首页
+      </button>
+      <button ion-item >
+        实习
+      </button>
+      <button ion-item >
+        数据
+      </button>
+      <button ion-item >
+        平台
+      </button>
+      <button ion-item >
+        系统
+      </button>
+      <button ion-item >
+        设置
+      </button>
+      <button ion-item >
+        退出
+      </button>
+    </ion-list>
+  </ion-content>
+
+</ion-menu>
+
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>
